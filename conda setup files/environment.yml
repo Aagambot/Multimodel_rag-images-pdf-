@@ -1,0 +1,42 @@
+# Conda Environment File - Simple and Reliable
+# Run in Anaconda Prompt: conda env create -f environment.yml
+
+name: multimodal-rag
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - streamlit
+  - jupyter
+  - pandas
+  - numpy
+  
+  # PyTorch ecosystem (conda handles compatibility automatically)
+  - pytorch
+  - torchvision
+  - cpuonly  # CPU-only version for simplicity
+  
+  # Core ML packages
+  - transformers
+  - sentence-transformers
+  
+  # PDF processing
+  - pillow
+  
+  # Web requests
+  - requests
+  
+  # Pip packages that aren't available in conda
+  - pip:
+    - pymupdf
+    - arxiv
+    - chromadb
+    - langchain
+    - langchain-community
+    - langchain-core
+    - google-generativeai==0.7.2
+    - langchain-google-genai==1.0.10

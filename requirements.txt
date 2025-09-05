@@ -1,0 +1,34 @@
+# Core Streamlit and UI
+streamlit==1.32.0
+
+# PDF Processing
+PyMuPDF==1.23.26
+pillow==10.4.0
+
+# ArXiv API
+arxiv==2.1.0
+feedparser==6.0.11
+
+# Google AI (Compatible versions)
+google-generativeai==0.7.2
+langchain-google-genai==1.0.10
+
+# LangChain Community (for updated imports)
+langchain-community==0.2.16
+
+# Vector Database and Embeddings
+chromadb==0.4.24
+sentence-transformers==2.7.0
+
+# Core ML/AI (Compatible versions)
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.36.0
+
+# HTTP and utilities
+httpx==0.25.2
+requests==2.31.0
+
+# Basic utilities
+numpy==1.24.3
+pandas==2.0.3
